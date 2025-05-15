@@ -36,12 +36,12 @@ spring:
     password:
     port: 6379
   rabbitmq:
-    host: jeecg-boot-rabbitmq
+    host: localhost
     username: guest
     password: guest
     port: 5672
     publisher-confirms: true
-    publisher-returns: truew
+    publisher-returns: true
     virtual-host: /
     listener:
       simple:
